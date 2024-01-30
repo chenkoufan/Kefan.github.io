@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>: 告诉浏览器这个文档是HTML5类型。
+
+<!-- Phantom by HTML5 UP ... -->: 这是一个注释行，提供了模板的名称、作者以及版权信息。
+
+<html>: 表示HTML文档的开始。
+
+<head>: <head>标签内包含了页面的元数据。
+
+<title>Kefan Chen</title>: 设置网页的标题，显示在浏览器的标题栏或标签页上。
+
+<meta charset="utf-8" />: 指定页面字符集为UTF-8，支持多语言内容。
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />: 设置视口属性，以确保网站在移动设备上正确显示。
+
+<link rel="stylesheet" href="assets/css/main.css" />: 链接到网站的主要CSS样式表。
+
+<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>: 如果浏览器不支持或禁用了JavaScript，将使用这个附加的CSS样式表。
+
+</head>: <head>标签的结束。
+
+<body class="is-preload">: 网页主体的开始，class="is-preload"可能是用于控制页面加载时的某些行为或样式。
+
+<!-- Wrapper -->: 注释，说明接下来的代码是页面的主要包装器部分。
+
+<div id="wrapper">: 页面主要内容的包装器开始。
+
+<!-- Header -->: 注释，说明接下来的部分是页头。
+
+<header id="header">: 页头的开始。
+
+<div class="inner">: 页头内部的一个容器，可能用于布局或样式。
+
+<!-- Logo -->: 注释，接下来是网站的Logo部分。
+
+<a href="index.html" class="logo">: Logo的链接，点击会返回首页。
+
+<span class="symbol"><img src="images/jingxiang.jpg" alt="" /></span><span class="title"></span>: Logo图片和标题的容器。
+
+</a>: Logo链接的结束。
+
+<!-- Nav -->: 注释，说明接下来是导航栏部分。
+
+<nav>: 导航栏开始。
+
+<ul>: 无序列表开始，用于导航项。
+
+<li><a href="#menu">Menu</a></li>: 导航列表项，链接到页面的某个部分或功能。
+
+</ul>: 无序列表结束。
+
+</nav>: 导航栏结束。
+
+</div>: 页头内部容器结束。
+
+</header>: 页头结束。
+
+<!-- Menu -->: 注释，说明接下来是菜单部分。
+
+<nav id="menu">: 菜单的开始。
+
+<h2>Menu</h2>: 菜单的标题。
+
+<ul>: 菜单的无序列表开始。
+
+<li><a href="index.html">Home</a></li>: 菜单项，链接到首页。
+
+`<li><a href="generic.html">Projects</a
+
+<li><a href="generic.html">Resume</a></li>: 另一个菜单项，提供指向“简历”页面的链接。
+
+<li><a href="generic.html">About</a></li>: 菜单项，链接到“关于我”页面。
+
+<li><a href="elements.html">Others</a></li>: 菜单项，链接到其他内容。
+
+</ul>: 菜单的无序列表结束。
+
+</nav>: 菜单部分结束。
+
+<!-- Main -->: 注释，说明接下来是网页的主要内容区域。
+
+<div id="main">: 主要内容区域的开始。
+
+<div class="inner">: 主内容区的内部容器，用于样式和布局。
+
+<header>: 这个部分的头部开始。
+
+<h1>My name is Kefan Chen<br /></a></h1>: 一个主标题，包含您的名字。
+
+<p>Passionate about changing the world with technology.</p>: 一个段落，描述您的职业激情或目标。
+
+</header>: 这个部分的头部结束。
+
+<section class="tiles">: 开始一个区域，可能用于展示项目或作品。
+
+<article class="style6">: 第一个项目或作品的文章开始。
+
+<span class="image">: 图片容器开始。
+
+<img src="images/pic11.jpg" alt="" />: 实际图片，需要替换成您的项目图片。
+
+</span>: 图片容器结束。
+
+<a href="generic.html">: 链接到项目详细信息或更多内容。
+
+<h2>Solar Decathlon</h2>: 项目或作品的标题。
+
+<div class="content">: 项目或作品的描述开始。
+
+<p>2021.10</p>: 项目日期或简短描述。
+
+</div>: 项目或作品的描述结束。
+
+</a>: 链接结束。
+
+</article>: 第一个项目或作品的文章结束。
+
+<article class="style4">: 第二个项目或作品的文章开始。
+
+(类似的结构重复，用于展示另一个项目或作品)
+
+
+<span class="image">: 第二个项目的图片容器。
+
+<img src="images/pic12.jpg" alt="" />: 第二个项目的图片，src属性指向图片的路径。
+
+</span>: 第二个项目的图片容器结束。
+
+<a href="generic.html">: 链接到第二个项目的详细页面或相关内容。
+
+<h2>Designing Resilience</h2>: 第二个项目的标题。
+
+<div class="content">: 项目内容的容器。
+
+<p>2022.4</p>: 第二个项目的日期或简短描述。
+
+</div>: 项目内容容器结束。
+
+</a>: 第二个项目的链接结束。
+
+</article>: 第二个项目的文章结束。
+
+</section>: 包含项目或作品的区域结束。
+
+</div>: 主内容区的内部容器结束。
+
+</div>: 主内容区域结束。
+
+<!-- Footer -->: 注释，说明接下来是页脚部分。
+
+<footer id="footer">: 页脚的开始。
+
+<div class="inner">: 页脚的内部容器，用于样式和布局。
+
+<section>: 开始一个区域，通常用于放置联系信息或表单。
+
+<h2>Get in touch</h2>: 小节标题，提示访问者联系方式。
+
+<p>chenkoufan@gmail.com</p>: 提供的电子邮件地址。
+
+<!-- <form>...</form> -->: 注释掉的表单代码，可用于启用联系表单。
+
+</section>: 联系信息区域结束。
+
+<section>: 开始另一个区域，通常用于社交媒体链接。
+
+<h2>Follow</h2>: 小节标题，提示访问者关注社交媒体。
+
+<ul class="icons">: 社交媒体图标的列表开始。
+
+<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>: Instagram链接。
+
+<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>: GitHub链接。
+
+</ul>: 社交媒体图标列表结束。
+
+</section>: 社交媒体链接区域结束。
+
+<ul class="copyright">: 版权信息的列表开始。
+
+<li>&copy; Untitled. All rights reserved</li>: 版权声明。
+
+<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>: 设计归属和链接。
+
+</ul>: 版权信息列表结束。
+
+</div>: 页脚的内部容器结束。
+
+</footer>: 页脚结束。
+
+</div>: 页面的主要包装器结束。
+
+<!-- Scripts -->: 注释，标记脚本引用的开始。
+
+<script src="assets/js/jquery.min.js"></script>: 引入jQuery库。
+
+<script src="assets/js/browser.min.js"></script>: 引入浏览器特定脚本。
+
+<script src="assets/js/breakpoints.min.js"></script>: 引入用于响应式设计的断点脚本。
+
+<script src="assets/js/util.js"></script>: 引入一些实用工具脚本。
+
+<script src="assets/js/main.js"></script>: 引入网站的主要JavaScript脚本。
+
+</body>: 页面主体的结束。
+
+</html>: HTML文档的结束。
+
+每行代码都是构建网页的一个组成部分，从布局到样式，再到功能。希望这能帮助您更好地理解和编辑您的网

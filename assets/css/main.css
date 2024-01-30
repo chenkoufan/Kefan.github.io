@@ -2842,7 +2842,13 @@ input, select, textarea {
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
+			
 		}
+
+		
+		
+		/* 如果需要进一步调整Logo和标题的样式，可以在这里添加 */
+		
 
 			#header .logo > * {
 				display: inline-block;
@@ -2961,8 +2967,11 @@ input, select, textarea {
 					}
 
 		}
+	
+	
 
 /* Menu */
+
 
 	#wrapper {
 		-moz-transition: opacity 0.45s ease;
